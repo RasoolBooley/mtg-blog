@@ -1,0 +1,30 @@
+{
+    "posts": [
+        { 
+        "id": 1, 
+        "title": "Some Blog Thing", 
+        "image": " image url goes here",
+        "date": "today",
+        "description": "dat boi",
+        "author": "Rasool Booley"
+    },
+    {
+        "id": 2, 
+        "title": "Some Blog Thing", 
+        "image": "url",
+        "date": "today",
+        "description": "dat other boi",
+        "author": "Max James"
+    }
+],
+    "comments": [
+        {
+        "id": 1, 
+        "body": "Theres going to be some blog things here", 
+        "postId": 1
+     }
+],
+    "profile": { 
+        "name": "ChaosPhantom819" 
+    }
+}
