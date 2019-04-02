@@ -24,10 +24,41 @@ h1 {
   font-family: 'Germania One', cursive; 
 }
 
+h2 {
+  font-family: 'Germania One', cursive;
+  padding: 1em;
+  font-size: 3em;
+  text-align: center;
+}
+
+.blog-heading {
+  color: white;
+}
+
+.blog-description {
+  font-family: 'Kalam', cursive;
+  text-align: center;
+}
+
 .home-text {
   color: rgb(255, 255, 255);
   padding-top: 5%;
   padding-left: 10%;
   font-size: 2em;
   font-family: 'Kalam', cursive;
+}
+
+#blog-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  width: 80%;
+  padding-bottom: 2em;
+}
+
+.blog-section {
+  background-image: url(../images/nicol-bolas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
