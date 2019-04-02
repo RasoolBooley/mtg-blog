@@ -10,7 +10,7 @@ a {
 }
 
 header {
-  background-image: url(../images/war-of-the-spark-home.jpg);
+  background-image: url(../images/nicol-bolas-head.mp4);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,6 +38,8 @@ h2 {
 .blog-description {
   font-family: 'Kalam', cursive;
   text-align: center;
+  padding-bottom: 4em;
+  margin: 0;
 }
 
 .home-text {
@@ -46,6 +48,10 @@ h2 {
   padding-left: 10%;
   font-size: 2em;
   font-family: 'Kalam', cursive;
+}
+
+.under-header-home {
+  background-color: rgb(211, 195, 195);
 }
 
 #blog-posts {
