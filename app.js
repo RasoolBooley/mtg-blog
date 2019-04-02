@@ -4,8 +4,13 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+// here is where you link the files
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var createRouter = require('./routes/create');
+var createRouter = require('./routes/update');
+var createRouter = require('./routes/delete');
 
 var app = express();
 
@@ -39,3 +44,5 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+app.listen(8080);

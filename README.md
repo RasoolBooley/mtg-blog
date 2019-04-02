@@ -37,6 +37,7 @@ A blog about Magic the Gathering and navigating the standard meta
 - create a db.json manually
 - npm install
 - npm start
+- npm init
 - npm install jquery --save
 - npm install popper.js@^1.12.3 --save
 - npm install bootstrap --save
@@ -52,6 +53,10 @@ A blog about Magic the Gathering and navigating the standard meta
 
 ```
 ```
+
+### Changelog
+
+- 
 
 ### Contributors
 
@@ -76,3 +81,12 @@ update and delete button should show to signed in users
 install nodemon so the app refreshes when you interact with the page
 
 add confirmations for action like delete
+
+
+
+<!-- project setup 
+
+create repo enter starred commands/follow instructions in slack
+
+
+ -->

@@ -15,7 +15,8 @@
     "jquery": "^3.3.1",
     "morgan": "~1.9.0",
     "nodemon": "^1.18.10",
-    "popper.js": "^1.14.7"
+    "popper.js": "^1.14.7",
+    "request": "^2.88.0"
   },
   "description": "A blog about Magic the Gathering and navigating the standard meta",
   "main": "https://github.com/RasoolBooley/mtg-blog",
