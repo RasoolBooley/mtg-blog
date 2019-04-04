@@ -56,37 +56,27 @@ A blog about Magic the Gathering and navigating the standard meta
 
 ### Changelog
 
-- 
+03/29/2019
+
+- added base folders
+
+04/02/2019
+
+- added landing page
+- layout
+- nav
+- footer
+
+04/03/2019
+
+- added create post js
+
+04/04/2019
+
+- fixed css/js links
+- added create profile js
 
 ### Contributors
 
 Rasool Booley 
 Nate Banda 
-
-
-a lil brief of what needs to be done
-
-highly visual blog with crispy images, that do not take time to load. It should be able to view or read, sign up should capture username, email and password. Update we use a third party plugin (wizwick?) Must be able to save user data in a cookie (install cookie parcel?).
- 
-on the site you need a Home/Landing page. Must have at least 3 of the latest blog posts visible on the page
-
-a blog archive page with all the blogs
-
-footer and nav
-
-sign up page or pop up
-
-update and delete button should show to signed in users
-
-install nodemon so the app refreshes when you interact with the page
-
-add confirmations for action like delete
-
-
-
-<!-- project setup 
-
-create repo enter starred commands/follow instructions in slack
-
-
- -->

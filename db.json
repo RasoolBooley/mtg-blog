@@ -17,11 +17,13 @@
         "author": "Max James"
     }
 ],
-    "comments": [
+
+    "users": [
         {
         "id": 1, 
-        "body": "Theres going to be some blog things here", 
-        "postId": 1
+        "username": "Rasool", 
+        "email": "rasool.booley@gmail.com",
+        "password": "password-here"
      }
 ],
     "profile": { 

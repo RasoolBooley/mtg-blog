@@ -16,7 +16,7 @@ var routes = [
   require('./routes/index'),
   require('./routes/users'),
   require('./routes/create'),
-  // require('./routes/view'),
+  require('./routes/view'),
   require('./routes/update'),
   require('./routes/delete')
 ]

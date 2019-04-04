@@ -48,7 +48,7 @@ router.post('/', function(req, res, next){
 
     // Post request
     request({
-        url: 'localhost:3004',
+        url: 'http://localhost:8080/posts',
         method: Posts,
         form: {
             id: id,
