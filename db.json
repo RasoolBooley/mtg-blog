@@ -18,7 +18,7 @@
     },
     {
         "id": 3, 
-        "title": "Want to be the Annoying blue player", 
+        "title": "Want to be the Annoying blue player?", 
         "image": "",
         "date": "04/04/2019",
         "description": "Ever had a spell countered? Now you can be the one doing the countering",
@@ -29,7 +29,7 @@
     "users": [
         {
         "id": 1, 
-        "username": "Rasool", 
+        "username": "Rasool Booley", 
         "email": "rasool.booley@gmail.com",
         "password": "password-here"
      }

@@ -1,0 +1,49 @@
+// ID's and Classes go here
+
+.blog-heading {
+    color: rgb(255, 255, 255);
+  }
+  
+  .blog-description {
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    padding-bottom: 4em;
+    margin: 0;
+  }
+  
+  .home-text {
+    color: rgb(255, 255, 255);
+    padding-top: 5%;
+    padding-left: 10%;
+    font-size: 2em;
+    font-family: 'Kalam', cursive;
+  }
+  
+  .under-header-home {
+    background-color: rgb(211, 195, 195);
+  }
+  
+  #blog-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    width: 80%;
+    padding-bottom: 2em;
+  }
+  
+  .blog-section {
+    background-image: url(../images/nicol-bolas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .text-uppercase {
+    color: white;
+  }
+  
+  .footer-para {
+    color: white;
+  }
+  
+  

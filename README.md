@@ -76,6 +76,11 @@ A blog about Magic the Gathering and navigating the standard meta
 - fixed css/js links
 - added create profile js
 
+05/04/2019
+
+- added sign in JS
+- converted css to sass
+
 ### Contributors
 
 Rasool Booley 

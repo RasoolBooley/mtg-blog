@@ -11,14 +11,16 @@ var usersRouter = require('./routes/users');
 var createRouter = require('./routes/create');
 var updateRouter = require('./routes/update');
 var deleteRouter = require('./routes/delete');
+var registerRouter = require ('./routes/register');
 
 var routes = [
   require('./routes/index'),
   require('./routes/users'),
   require('./routes/create'),
+  require('./routes/register'),
   require('./routes/view'),
   require('./routes/update'),
-  require('./routes/delete')
+  require('./routes/delete'),
 ]
 
 var app = express();
@@ -35,7 +37,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-
+app.use('/register', registerRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
