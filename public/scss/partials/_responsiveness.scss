@@ -1,5 +1,38 @@
-// @media screen only and (max-width: 380px) {
-//     css here: {
 
-//     }
-// }
+@media (max-width: 1078px) {
+    #blog-posts {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 2em;  
+      }
+      h1 {
+          padding-top: 4em;
+      }
+}
+
+@media (max-width: 746px) {
+    #blog-posts {
+        display: block !important;
+        width: 50% !important;
+
+    }
+    .card {
+        margin-top: 2em !important;
+    }
+}
+
+@media (max-width: 534px) {
+    #blog-posts {
+        display: block !important;
+        width: 100% !important;
+        margin: 0;
+        padding-left: 20%;
+    }
+
+}
+
+@media (max-width: 458px) {
+    #blog-posts {
+        margin: auto;
+    }
+
+}

@@ -47,13 +47,6 @@ font-family: 'Germania One', cursive; */
 .under-header-home {
   background-color: #d3c3c3; }
 
-#blog-posts {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: auto;
-  width: 80%;
-  padding-bottom: 2em; }
-
 .blog-section {
   background-image: url(../images/nicol-bolas.jpg);
   background-size: cover;
@@ -65,5 +58,35 @@ font-family: 'Germania One', cursive; */
 
 .footer-para {
   color: white; }
+
+@media (max-width: 1078px) {
+  #blog-posts {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 2em; }
+
+  h1 {
+    padding-top: 4em; } }
+@media (max-width: 746px) {
+  #blog-posts {
+    display: block !important;
+    width: 50% !important; }
+
+  .card {
+    margin-top: 2em !important; } }
+@media (max-width: 534px) {
+  #blog-posts {
+    display: block !important;
+    width: 100% !important;
+    margin: 0;
+    padding-left: 20%; } }
+@media (max-width: 458px) {
+  #blog-posts {
+    margin: auto; } }
+#blog-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  width: 80%;
+  padding-bottom: 2em; }
 
 /*# sourceMappingURL=main.css.map */

@@ -23,14 +23,6 @@
     background-color: rgb(211, 195, 195);
   }
   
-  #blog-posts {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: auto;
-    width: 80%;
-    padding-bottom: 2em;
-  }
-  
   .blog-section {
     background-image: url(../images/nicol-bolas.jpg);
     background-size: cover;

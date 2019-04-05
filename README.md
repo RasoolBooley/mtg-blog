@@ -2,6 +2,10 @@
 
 A blog about Magic the Gathering and navigating the standard meta
 
+## Live link
+
+http://dank-mtg-blog.7e14.starter-us-west-2.openshiftapps.com/
+
 # Getting started
 
 - 
@@ -80,6 +84,7 @@ A blog about Magic the Gathering and navigating the standard meta
 
 - added sign in JS
 - converted css to sass
+- homepage responsiveness
 
 ### Contributors
 

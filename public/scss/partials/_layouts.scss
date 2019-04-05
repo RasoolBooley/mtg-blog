@@ -1,1 +1,10 @@
 // layouts and grids go here
+
+#blog-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    width: 80%;
+    padding-bottom: 2em;
+}
+  
