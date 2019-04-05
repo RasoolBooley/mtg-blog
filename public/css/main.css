@@ -26,6 +26,9 @@ h2 {
 footer {
   background-color: #353535; }
 
+input {
+  margin-left: 10%; }
+
 /* font-family: 'Kalam', cursive;
 font-family: 'Germania One', cursive; */
 .blog-heading {
@@ -59,9 +62,18 @@ font-family: 'Germania One', cursive; */
 .footer-para {
   color: white; }
 
+.registration-bg {
+  background-image: url(https://images4.alphacoders.com/207/thumb-1920-207154.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.form-text {
+  color: white; }
+
 @media (max-width: 1078px) {
   #blog-posts {
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-rows: repeat(3, 1fr) !important;
     grid-gap: 2em; }
 
   h1 {

@@ -8,7 +8,9 @@ http://dank-mtg-blog.7e14.starter-us-west-2.openshiftapps.com/
 
 # Getting started
 
-- 
+- Clone project
+- run nodemon app.js
+- open project on "localhost:8080" in your browser
 
 ```
 ```
