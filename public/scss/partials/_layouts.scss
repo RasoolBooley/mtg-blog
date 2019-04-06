@@ -8,3 +8,14 @@
     padding-bottom: 2em;
 }
   
+.reg-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 2em;
+    padding-top: 4em;
+    margin: auto;
+    margin-bottom: 4rem;
+}

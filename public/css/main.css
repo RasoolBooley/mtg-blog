@@ -27,10 +27,24 @@ footer {
   background-color: #353535; }
 
 input {
-  margin-left: 10%; }
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border-color: white;
+  border-style: solid white;
+  border-radius: 0%;
+  height: 2em;
+  font-family: 'Kalam', cursive; }
 
 /* font-family: 'Kalam', cursive;
 font-family: 'Germania One', cursive; */
+button {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  height: 1.5rem;
+  width: 5rem;
+  font-family: 'Kalam', cursive;
+  margin: auto; }
+
 .blog-heading {
   color: white; }
 
@@ -70,6 +84,10 @@ font-family: 'Germania One', cursive; */
 .form-text {
   color: white; }
 
+.reg-heading {
+  padding-top: 2em;
+  color: white; }
+
 @media (max-width: 1078px) {
   #blog-posts {
     grid-template-columns: repeat(1, 1fr) !important;
@@ -100,5 +118,16 @@ font-family: 'Germania One', cursive; */
   margin: auto;
   width: 80%;
   padding-bottom: 2em; }
+
+.reg-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 2em;
+  padding-top: 4em;
+  margin: auto;
+  margin-bottom: 4rem; }
 
 /*# sourceMappingURL=main.css.map */
